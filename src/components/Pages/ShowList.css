@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+#div_BookList {
+  font-family: Arial, sans-serif;
+  margin-top: 10px;
+}
+
+.book-item {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.book-id {
+  width: 50px;
+  text-align: left;
+}
+
+.book-name {
+  width: 200px;
+  text-align: left;
+}
+
+.book-author {
+  width: 150px;
+  text-align: left;
+}
+
+.book-price {
+  width: 100px;
+  text-align: left;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.main-container {
+  display: flex;
+}
